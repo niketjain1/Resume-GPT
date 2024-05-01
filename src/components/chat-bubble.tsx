@@ -54,10 +54,10 @@ export const ChatBubble = ({
           >
             {role == "assistant" ? "AI" : "You"}
           </CardTitle>
-          <CardContent className="text-sm">
-            <Balancer>{wrappedMessage}</Balancer>
-          </CardContent>
         </CardHeader>
+        <CardContent className="text-sm">
+          <Balancer>{wrappedMessage}</Balancer>
+        </CardContent>
         <CardFooter>
           <CardDescription className="w-full">
             {sources && sources.length ? (
